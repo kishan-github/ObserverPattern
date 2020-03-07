@@ -8,6 +8,7 @@ class ObserverData
 public:
 	Observer* obsr;
 	int* setting;
+	void (*onUpdate)();
 
-	ObserverData(Observer* obsr, int* setting);
+	ObserverData(Observer* obsr, int* setting, void (*updateFunction)(void));
 };

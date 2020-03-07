@@ -10,5 +10,5 @@ class AverageDisplay : public Observer
 {
 public:
 	AverageDisplay();
-	void onUpdate() override;
+	static void onUpdateRuns(void);
 };

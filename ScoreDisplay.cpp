@@ -9,11 +9,11 @@
 ScoreDisplay::ScoreDisplay()
 {
 	// Create the object of setting observer to register this class as observer.
-	new SettingObserver(new ObserverData(this, &((Cricket::driver)->Runs)));
+	new SettingObserver(new ObserverData(this, &((Cricket::driver)->Runs), onUpdateWickets));
 }
 
 // This method will be called when there is any update in value.
-void ScoreDisplay::onUpdate()
+void ScoreDisplay::onUpdateWickets()
 {
 	std::cout << "Score class notified.\n";
 }

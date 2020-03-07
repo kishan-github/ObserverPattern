@@ -7,5 +7,5 @@ class ScoreDisplay : public Observer
 {
 public:
 	ScoreDisplay();
-	void onUpdate() override;
+	static void onUpdateWickets();
 };

@@ -46,6 +46,6 @@ void SettingObserver::notifyObserver(int *setting)
 	{
 		// Call the onUpdate method of all the registered observers for this setting.
 		if((*itr)->setting == setting)
-			((*itr)->obsr)->onUpdate();
+			(*itr)->onUpdate();
 	}
 }
