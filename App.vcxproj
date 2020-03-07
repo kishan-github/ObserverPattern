@@ -151,15 +151,18 @@
     <ClCompile Include="AverageDisplay.cpp" />
     <ClCompile Include="Cricket.cpp" />
     <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="ObserverData.cpp" />
     <ClCompile Include="ScoreDisplay.cpp" />
+    <ClCompile Include="SettingObserver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AverageDisplay.h" />
     <ClInclude Include="Cricket.h" />
     <ClInclude Include="Driver.h" />
-    <ClInclude Include="NotifyClass.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="ObserverData.h" />
     <ClInclude Include="ScoreDisplay.h" />
+    <ClInclude Include="SettingObserver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

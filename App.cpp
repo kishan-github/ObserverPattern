@@ -12,15 +12,7 @@ int main()
 	AverageDisplay avgDisp;
 	ScoreDisplay scoreDisp;
 
-	cricket.registerObserver(&avgDisp);
-	cricket.registerObserver(&scoreDisp);
+	cricket.updateRuns();
 
-	cricket.updateScores();
-	cricket.updateScores();
-	cricket.updateScores();
-
-	cricket.unregisterObserver(&scoreDisp);
-
-	cricket.updateScores();
-	cricket.updateScores();
+	cricket.updateWickets();
 }

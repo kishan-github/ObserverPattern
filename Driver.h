@@ -1,13 +1,11 @@
 #pragma once
 
+// This class stores all the settings.
 class Driver
 {
-	int runs;
-	int wickets;
-
 public:
-	// Constructor
-	Driver();
+	int Runs;
+	int Wickets;
 
 	// Setters
 	void onSetRuns(int runs);
